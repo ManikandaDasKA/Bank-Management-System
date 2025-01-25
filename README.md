@@ -10,27 +10,21 @@ This bank management system allows customers to interact with there bank account
 
 #### Classes:
 1.	BankAccount Class:
-•	Has methods for depositing, withdrawing, getting balance, and displaying account information.
-•	When a deposit or withdrawal happens, the balance is updated.
+  •	Has methods for depositing, withdrawing, getting balance, and displaying account information.
+  •	When a deposit or withdrawal happens, the balance is updated.
+2.	SavingsAccount Class:
+  •	Inherits from BankAccount.
+  •	Adds an interest rate and a method to calculate interest.
+  •	When interest is calculated, it's added to the balance.
+3.	CurrentAccount Class:
+  •	Also inherits from BankAccount.
+  •	Adds features for an overdraft limit and withdrawal fee.
+  •	It overrides the withdraw method to handle withdrawals that exceed the balance but remain within the overdraft limit.
+4.	Loan Class:
+  •	Models a loan.
+  •	Contains information like loan ID, account number, principal amount, interest rate, and loan term.
+  •	It calculates monthly payments based on the loan parameters.
 
-3.	SavingsAccount Class:
-  ###### o	Inherits from BankAccount.
-
-  ###### o	Adds an interest rate and a method to calculate interest.
- 
-  ###### o	When interest is calculated, it's added to the balance.
-
-5.	CurrentAccount Class:
- ###### o	Also inherits from BankAccount.
-
- ###### o	Adds features for an overdraft limit and withdrawal fee.
- 
- ###### o	It overrides the withdraw method to handle withdrawals that exceed the balance but remain within the overdraft limit.
-
-7.	Loan Class:
- ###### o	Contains information like loan ID, account number, principal amount, interest rate, and loan term.
-
- ###### o	It calculates monthly payments based on the loan parameters.
 
 #### Functions:
 1.	save_accounts: Saves account details to a CSV file.
