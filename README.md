@@ -1,5 +1,5 @@
 ## Bank Management System 
-###### This bank management system allows customers to interact with there bank accounts and loan services. It allows the creation of bank accounts (both savings and current), depositing and withdrawing funds, checking balances, displaying account information, applying for loans, making loan payments, and viewing loan details. The system uses Python classes to model different components and functionalities.
+This bank management system allows customers to interact with there bank accounts and loan services. It allows the creation of bank accounts (both savings and current), depositing and withdrawing funds, checking balances, displaying account information, applying for loans, making loan payments, and viewing loan details. The system uses Python classes to model different components and functionalities.
  
 #### Imports:
 ###### •	random: Used to generate random account and loan IDs.
