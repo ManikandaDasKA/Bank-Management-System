@@ -10,9 +10,8 @@ This bank management system allows customers to interact with there bank account
 
 #### Classes:
 1.	BankAccount Class:
-  ##### o	Has methods for depositing, withdrawing, getting balance, and displaying account information.
-
-  ##### o	When a deposit or withdrawal happens, the balance is updated.
+•	Has methods for depositing, withdrawing, getting balance, and displaying account information.
+•	When a deposit or withdrawal happens, the balance is updated.
 
 3.	SavingsAccount Class:
   ###### o	Inherits from BankAccount.
