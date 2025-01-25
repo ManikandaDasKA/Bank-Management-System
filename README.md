@@ -3,26 +3,34 @@ This bank management system allows customers to interact with there bank account
  
 #### Imports:
 •	random: Used to generate random account and loan IDs.
+
 •	pandas: A data manipulation library used to read, modify, and save data from/to CSV files.
+
 •	csv: Standard Python library to read and write CSV files, used for saving and loading account and loan data.
 
 #### Classes:
 1.	BankAccount Class:
  o	Has methods for depositing, withdrawing, getting balance, and displaying account information.
+
  o	When a deposit or withdrawal happens, the balance is updated.
 
-2.	SavingsAccount Class:
+3.	SavingsAccount Class:
  o	Inherits from BankAccount.
+
  o	Adds an interest rate and a method to calculate interest.
+ 
  o	When interest is calculated, it's added to the balance.
 
-3.	CurrentAccount Class:
+5.	CurrentAccount Class:
  o	Also inherits from BankAccount.
+
  o	Adds features for an overdraft limit and withdrawal fee.
+ 
  o	It overrides the withdraw method to handle withdrawals that exceed the balance but remain within the overdraft limit.
 
-4.	Loan Class:
+7.	Loan Class:
  o	Contains information like loan ID, account number, principal amount, interest rate, and loan term.
+
  o	It calculates monthly payments based on the loan parameters.
 
 #### Functions:
